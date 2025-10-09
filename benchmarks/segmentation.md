@@ -28,9 +28,9 @@ We used the binaries os Mitosegnet to fine-tune a segmentation model using the t
 ## 6. PhySeg 
 We use the model released in the (URL)[https://zenodo.org/records/5017066] as part of the work Physics based machine learning for sub-cellular segmentation in living cells. We follow the instructions provided in the PPT for fine-tuning the model on the real images.
 
-## 7. 3DOSL 
+## 7. 3DMSL 
 
-We use the model released in the (URL)[https://zenodo.org/records/5017066] as part of the work Physics based machine learning for sub-cellular segmentation in living cells. We follow the instructions provided in the PPT for fine-tuning the model on the real images after pre-training on dataset created using 3DOSL. 
+We use the model released in the (URL)[https://zenodo.org/records/5017066] as part of the work Physics based machine learning for sub-cellular segmentation in living cells. We follow the instructions provided in the PPT for fine-tuning the model on the real images after pre-training on dataset created using 3DMSL. 
 
 # Evaluation 
 The code used for calculating the metrics of Iou, dice score and betti error is available in the file `evaluation.ipynb`. Before running the code, download the Betti-error (repository)[https://github.com/nstucki/Betti-matching/tree/8fc23e64c035916e2548fb70be3ab08c3860c3a6] and place it in the same folder as the evaluation.ipynb file. 

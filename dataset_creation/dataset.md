@@ -1,9 +1,9 @@
-# 3DOSL Dataset Repository
+# 3DMSL Dataset Repository
 
-This repository accompanies the 3DOSL dataset. The steps to ge the data from source and create 3D OSL is explainde here. 
+This repository accompanies the 3DMSL dataset. The steps to ge the data from source and create 3D OSL is explainde here. 
 
 ## Get the data
-3DOSL is created from the EM segmentation available from [EMPIAR-10791-High resolution 3D imaging of liver subcellular architecture and its link to metabolic function](https://www.ebi.ac.uk/empiar/EMPIAR-10791/). Download the mitochondria segmentations of 4.1857 Obese Climp63 Liver Dataset - FIB-SEM and Segmentation. 
+3DMSL is created from the EM segmentation available from [EMPIAR-10791-High resolution 3D imaging of liver subcellular architecture and its link to metabolic function](https://www.ebi.ac.uk/empiar/EMPIAR-10791/). Download the mitochondria segmentations of 4.1857 Obese Climp63 Liver Dataset - FIB-SEM and Segmentation. 
 
 
 ## Data Preprocessing 
