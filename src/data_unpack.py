@@ -11,6 +11,7 @@ import os
 import shutil
 import glob
 from tqdm import tqdm
+import argparse
 
 def data_unpack(data_path, output_path):
     '''
@@ -26,6 +27,9 @@ def data_unpack(data_path, output_path):
     # return output_path
 
 if __name__ == "__main__":
-    data_path = 'data_zip'      # Path to the zipped data instances downloded from the Dataverse
-    output_path = 'data'        # Path to store the unzipped data instances
-    data_unpack(data_path, output_path)
+    parser = argparse.ArgumentParser(description="Unpack data from zipped files")
+    parser.add_argument("--zip_path", type=str, default="data_zip", help="Path to the folder containing the zipped data instances downloaded from the Dataverse")
+    parser.add_argument("--data_path", type=str, default="data", help="Path to store the unzipped data instances")
+    args = parser.parse_args()
+    data_unpack(args.zip_path, args.data_path)
+
