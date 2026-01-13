@@ -33,6 +33,19 @@ Follow the instructions in 'dataset_creation/dataset.md' to generate the differe
 ## Reading and Visualization
 Use the jupyter notbook 'data_read_vis.ipynb' to read and vizualize the different data formats. 
 
+The 3D visualizations are interactable. Below, we show snapshots of the mesh, occupancy and pointcloud formats of the instance 920.
+
+<!-- ![Mesh](imgs/920_mesh.png) ![Occupancy](imgs/920_occ.png) ![Point Cloud](imgs/920_pc.png) -->
+<img src="imgs/920_mesh.png" alt="Mesh" width="300" height="300">
+<img src="imgs/920_occ.png" alt="Occupancy" width="300" height="300">
+<img src="imgs/920_pc.png" alt="Point Cloud" width="300" height="300">
+
+The microscope images of the instance 920 in the different microscope configurations of Conf1 , Conf2, Epi1 (check associated paper for details of the configuration) are shown below. 
+
+<img src="imgs/920_0_Conf1_imgs.png" alt="Conf1" width="300" height="300" >
+<img src="imgs/920_0_Conf2_imgs.png" alt="Conf2" width="300" height="300">
+<img src="imgs/920_0_Epi1_imgs.png" alt="Epi1" width="300" height="300">
+
 ## Benchmarks
 Follow the instructions in 'benchmarks/reconstruction.md' and 'benchmarks/segmentation.md' for setting up and evaluating different benchmarks used for 2d to 3D reconstruction and segmentation of microscope images of mitochondria using 3DMSL. 
 
